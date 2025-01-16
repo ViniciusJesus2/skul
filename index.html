@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Updock&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="nav">
+                <div>
+                    <img class="logo" src="img/pixil-frame-0 (1).png" alt="Uma imagem de um caveira">
+                </div>
+                <div>
+                    <ul class="list-nav">
+                        <li class="item-list-nav"><a href="#first_section">Home</a></li>
+                        <li class="item-list-nav"><a href="#second_section">Skuls</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <main class="container">
+        <section id="first_section">
+            <div>
+                <img src="img/bg/Logo-Skul-site-removebg-preview.png" alt="">
+            </div>
+            <div>
+                <h1 class="title_section">O que é <span>Skul?</span></h1>
+                <p id="text_first_section">
+                    A raça humana atacando o castelo do Rei Demônio não é nenhuma novidade e já
+                    aconteceu inúmeras vezes antes. O que torna esta vez diferente, porém, é que os Aventureiros
+                    decidiram unir forças com o Exército Imperial e o <span>'Herói de Caerleon'</span> para liderar um
+                    ataque total na esperança de acabar com os Demônios de uma vez por todas. Eles atacaram a fortaleza
+                    dos Demônios com números esmagadores e tiveram sucesso em sua destruição total. Todos os demônios no
+                    castelo foram feitos prisioneiros, exceto por um esqueleto solitário chamado 'Skul'.</p>
+                <h2 class="subtitle_section">Saber mais:</h2>
+                <ul id="list_first_section">
+                    <li><button onclick="scrollToSection()">Skuls</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="second_section">
+            <div>
+                <h1 class="title_section">SKULS</h1>
+                <p class="text_section">Uma das principais mecânicas em <span>Skul: The Hero Slayer</span> é a
+                    habilidade do jogador de trocar a caveira
+                    padrão por outra, encontrada ao longo do jogo. Cada caveira tem estatísticas e habilidades especiais
+                    associadas a ela, e cada uma tem um conjunto de habilidades diferente quando trocada.</p>
+                <br>
+                <ul>
+                    <li class="text_section">A maioria dos crânios também tem a habilidade de Despertar ,
+                        transformando-se em uma versão melhor
+                        daquele crânio, com suas habilidades aprimoradas.</li>
+                    <li class="text_section">Ao passar de Raro para Único, uma segunda habilidade também é obtida
+                        no mesmo calibre Único, em
+                        oposição
+                        à versão Comum daquela habilidade adquirida.</li>
+                    <li class="text_section">Abaixo está os despertares de todas as caveiras, com suas respectivas raridades. <span>(Comum, Rara, Unica e Lendária)</span></li>
+                </ul>
+                <button onclick="scrollNextSection()">Ver Skuls</button>
+            </div>
+        </section>
+
+        <section id="third_section">
+            <div class="contain_skul">
+                <div>
+                    <h2 class="subtitle_section"><span>Skul</span>, também conhecido como "Little Bone"</h2>
+                    <img src="img/skuls/little_bone.webp" alt="">
+                    <h3>Skul</h3>
+                    <h4>Sem evolução</h4>
+                    <p class="text_section"><span>Skul</span>, também conhecido como <span>"Little Bone"</span>, é o personagem principal e único em comparação a qualquer outro crânio. É o crânio padrão de cada tentativa que você faz e não tem como retornar se você substituí-lo por outro crânio e mover para outro mapa. A única maneira de jogar como <span>"Little Bone"</span> novamente é começar uma nova run.</p>
+                </div>
+            </div>
+
+            <h2 class="subtitle_section">Raridade Comum</h2>
+            <div class="glider-contain">
+                <button class="glider-prev">«</button>
+                <div class="glider"></div>
+                <button class="glider-next">»</button>
+                <div role="tablist" class="dots"></div>
+            </div>
+
+            <h2 class="subtitle_section">Raridade Rara</h2>
+            <div class="glider-contain">
+                <button class="glider-prev1">«</button>
+                <div class="glider1"></div>
+                <button class="glider-next1">»</button>
+                <div role="tablist" class="dots1"></div>
+            </div>
+
+            <h2 class="subtitle_section">Raridade Única</h2>
+            <div class="glider-contain">
+                <button class="glider-prev2">«</button>
+                <div class="glider2"></div>
+                <button class="glider-next2">»</button>
+                <div role="tablist" class="dots2"></div>
+            </div>
+
+            <h2 class="subtitle_section">Raridade Lendária</h2>
+            <div class="glider-contain">
+                <button class="glider-prev3">«</button>
+                <div class="glider3"></div>
+                <button class="glider-next3">»</button>
+                <div role="tablist" class="dots3"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+
+    <footer class="rodape">&copy; Desenvolvido por Vinícius Jesus</footer>
+</body>
+</html>
