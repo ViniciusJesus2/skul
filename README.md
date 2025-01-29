@@ -1,6 +1,6 @@
 # Skul Evolution Project
 
-O **Skul Evolution Project** é um site interativo que permite aos usuários visualizar a evolução de diferentes tipos de "skuls". A aplicação utiliza JavaScript, HTML e CSS para criar uma experiência dinâmica e visualmente atraente.
+O **Skul Evolution Project** é um site interativo que permite aos usuários visualizar a evolução de diferentes tipos de "skuls" do jogo Skul The Hero Slayer. A aplicação utiliza JavaScript, HTML e CSS para criar uma experiência dinâmica e visualmente atraente.
 
 ## Tecnologias Utilizadas
 
